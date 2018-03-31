@@ -1,0 +1,17 @@
+
+
+spring:
+  application:
+    name: msstore-microservice
+
+server:
+  port: 9002
+  #context-path: /msstore
+
+  
+eureka:
+  client:
+    serviceUrl:      
+       defaultZone: http://localhost:9000/eureka
+    register-with-eureka: true
+    fetch-registry: true

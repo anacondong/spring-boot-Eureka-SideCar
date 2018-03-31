@@ -1,0 +1,17 @@
+
+
+spring:
+  application:
+    name: ws-microservice
+
+server:
+  port: 3000
+  #context-path: /ws
+
+  
+eureka:
+  client:
+    serviceUrl:      
+       defaultZone: http://localhost:9000/eureka
+    register-with-eureka: true
+    fetch-registry: true

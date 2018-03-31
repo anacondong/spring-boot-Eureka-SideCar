@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="csstore-microservice" />
+        <module name="eureka-server" />
+        <module name="msstore-microservice" />
+        <module name="sidecar" />
+        <module name="zuul-proxy" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="csstore-microservice" target="1.8" />
+      <module name="eureka-server" target="1.8" />
+      <module name="msstore-microservice" target="1.8" />
+      <module name="sidecar" target="1.8" />
+      <module name="spring-cloud-sidecar-sample" target="1.5" />
+      <module name="zuul-proxy" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
